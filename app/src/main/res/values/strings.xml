@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PersonalPlannerMad2020</string>
+    <string name="button">ToDo List</string>
+    <string name="button2">Alarm</string>
+    <string name="button3">Progress Timer</string>
+    <string name="button4">Sleep Tracker</string>
+</resources>
