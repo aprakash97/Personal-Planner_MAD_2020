@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center_horizontal"
+            android:text="@string/AppName"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="45sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plans your day to day life...."
+            android:textSize="20sp"
+            android:textColor="#B8B2B2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:background="#E91E63" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bdbtnholderplate">
+
+        <Button
+            android:id="@+id/Reminder"
+            android:layout_width="157dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/clocki" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:textSize="30sp"
+            android:layout_marginTop="140sp"
+            android:layout_marginLeft="-128dp"
+            android:textColor="@color/colorPrimaryDark">
+        </TextView>
+
+        <Button
+            android:id="@+id/Todo"
+            android:layout_width="157dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/list"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToDo_List"
+            android:textSize="30sp"
+            android:layout_marginTop="140sp"
+            android:layout_marginLeft="-155dp"
+            android:textColor="@color/colorPrimaryDark">
+        </TextView>
+
+        <Button
+            android:id="@+id/Time"
+            android:layout_width="157dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="-332dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/timer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alarm"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="-130dp"/>
+
+        <Button
+            android:id="@+id/sleep"
+            android:layout_width="157dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/zzz"/>
+
+        <TextView
+            android:layout_width="171dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="-170dp"
+            android:layout_marginTop="385dp"
+            android:text="Sleep Tracker"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
