@@ -1,0 +1,40 @@
+<resources>
+    <string name="App_name">PersonalPlanner</string>
+    <string name="todotitle">TODO_List</string>
+    <string name="subquait">Finish Them Quickly Today</string>
+    <string name="endtext">No More To Done!</string>
+    <string name="createpagetitle">Create New Task</string>
+    <string name="createbtn">Create Now</string>
+    <string name="canclelbtn">Cancel</string>
+    <string name="titleupdatepage">Edit Task Details</string>
+    <string name="updatebtn">Save Update</string>
+    <string name="deletebtn">Delete</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_description">Pleace Fill the Descriopton</string>
+    <string name="invalid_title">Pleace Fill the Title</string>
+    <string name="invalide_timeline">Pleace  Add Valid Timeline</string>
+
+    <string name="app_name">StopWatch</string>
+    <string name="take_your_own_time">Time waits for no one</string>
+    <string name="key_quotes">Time is the most valuable thing a man can spend</string>
+    <string name="name">name</string>
+    <string name="time">time</string>
+    <string name="view_details">View Details</string>
+    <string name="add">Add</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+
+<!--    <string name="app_nameA">AlarmProject</string>-->
+    <string name="alarmclock">AlarmClock</string>
+    <string name="snooze">Snooze</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="view_alarms">View Alarms</string>
+    <string name="timeA">time</string>
+    <string name="repeat">Repeat</string>
+    <string name="back">back</string>
+    <string name="alarm_details">Alarm Details</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="update_alarm">Update Alarm</string>
+
+</resources>

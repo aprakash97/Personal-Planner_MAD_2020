@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alarm_background_design1"
+    tools:context=".Alarm.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/alarm_homelogo3"
+        android:layout_height="400dp"/>
+    <TextView
+        android:id="@+id/alarmHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wake up Time is Up"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.4977"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage"
+        />
+    <TextView
+        android:id="@+id/alarmSubHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where every day doesn't start with an alarm clock and end with the television"
+        android:textSize="19sp"
+        android:textColor="#A3A2AD"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmHead"
+        app:layout_constraintHorizontal_bias="0.4977"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnStart"
+        app:layout_constraintTop_toBottomOf="@+id/alarmSubHead"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/alarm_button_background"
+        android:text="Gets Started"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
